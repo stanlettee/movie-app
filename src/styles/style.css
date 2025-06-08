@@ -2,3 +2,23 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(133, 110, 110)
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+li {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(189, 177, 177);
+    box-shadow: 5px 7px 7px rgb(151, 145, 145);
+    background-color: rgb(183, 187, 216);
+}
+
